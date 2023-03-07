@@ -10,7 +10,7 @@ int main()
     int n;
     printf("SJF Scheduling Algorithm\nEnter the no of processes:");
     scanf("%d",&n);
-    int p[n],wt[n],bt[n],tat[n],ct[n],atat=0,awt=0,temp1=0,temp2=0;
+    int wt[n],bt[n],tat[n],ct[n],atat=0,awt=0,temp1=0,temp2=0;
     struct p arr[n];
     printf("Enter the burst time for the processes:\n");
     for(int i=0;i<n;i++)
